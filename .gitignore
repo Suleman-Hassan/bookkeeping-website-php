@@ -1,0 +1,72 @@
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Cache & Temporary
+/cache/
+/tmp/
+/temp/
+*.tmp
+*.temp
+
+# PHP Runtime
+*.pid
+*.seed
+*.out
+
+# PHPUnit
+.phpunit.cache/
+.phpunit.result.cache
+
+# Composer
+composer.phar
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# WordPress
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/ai1wm-backups/
+
+# Laravel
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Build & Coverage
+coverage/
+build/
+dist/
+
+# Backup Files
+*.bak
+*.old
+*.orig
+*.sql
+*.zip
+*.tar
+*.gz
